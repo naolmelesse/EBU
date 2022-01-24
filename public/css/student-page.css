@@ -1,0 +1,172 @@
+.student-navbar {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.student-home {
+  flex: 1;
+}
+
+.student-nav-links {
+  padding-left: 2em;
+}
+
+.student-nav-links:hover {
+  color: #fff;
+  background-color: #193154;
+  margin: 0;
+  padding-left: 0;
+  padding: 1em 1em;
+}
+
+.student-profile {
+  height: 50px;
+  width: 50px;
+  border-radius: 75%;
+  border: solid #fff;
+}
+
+.student-top {
+  padding-right: 160px;
+}
+.student-icon {
+  color: #fff;
+  padding-left: 2em;
+}
+
+.student-profile-dropdown {
+  padding: 20px;
+}
+#drop {
+  padding: 20px;
+}
+/* 
+.student-profile-dropdown:hover {
+  overflow: hidden;
+  float: left;
+  padding-left: 1em;
+} */
+
+/* .student-profile-content {
+  display: none;
+  position: absolute;
+}
+.student-profile-dropdown a {
+  color: #193154;
+  display: block;
+  font-size: large;
+  float: none;
+  text-align: left;
+  padding: 1em;
+}
+
+.student-profile-dropdown a:hover {
+  background-color: #193154;
+  color: #fff;
+} */
+/* 
+.show {
+  display: block;
+} */
+
+/************* Body --header  */
+.body-header {
+  display: flex;
+  height: 400px;
+  align-items: center;
+  justify-content: left;
+  background-image: url("../image/student-page-header2.jpg");
+  background-repeat: round;
+}
+
+.body-header p,
+h1 {
+  color: #fff;
+  padding-left: 10rem;
+}
+
+.body-header h1 {
+  font-size: 50px;
+}
+
+/**************** Body - Main part ********************/
+.division {
+}
+.student-activity-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 5% auto 5% 10%;
+  width: 80%;
+  background-blend-mode: lighten;
+  padding: 2em;
+  border-radius: 3px 2px;
+}
+
+.student-activity-title {
+}
+.activities li {
+  padding-bottom: 2em;
+}
+
+.activities h3 {
+  text-align: center;
+  color: #fff;
+  padding: 10px;
+}
+
+.result-container {
+  padding: 3em;
+  margin: 5em;
+}
+
+.content {
+  background-color: teal;
+  padding: 2em;
+  border-radius: 3px;
+}
+
+.attendance {
+  box-sizing: content-box;
+  background-color: #193154;
+  height: fit-content;
+  padding: 4em;
+  text-align: center;
+  border-radius: 2px 2px;
+}
+.attendance h3 {
+  color: rgb(182, 46, 46);
+  text-align: center;
+  padding: 0 0 1em 0;
+  font-size: 30px;
+}
+.attendance p {
+  font-size: 70px;
+  color: #fff;
+}
+
+.timetable {
+  text-align: center;
+  padding: 1em;
+  width: 40%;
+  margin: 5% 0 5% 10%;
+  background-color: wheat;
+}
+
+.timetable h3 {
+  color: #fff;
+  font-size: x-large;
+}
+
+.timetable p {
+  padding: 1em;
+  text-align: justify;
+}
+
+/************ Student-page Attendance percentage *******************/
+
+/******* Footer *********/
+.student-footer {
+  display: flex;
+  justify-content: center;
+}

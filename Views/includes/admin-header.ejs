@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashbord</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="./css/dashbord.css">
+    <link rel="stylesheet" href="./css/admin-add.css">
+    <link rel="stylesheet" href="./css/admin.css">
+    <link rel="stylesheet" href="./css/style.css">
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.min.js" integrity="sha512-VCHVc5miKoln972iJPvkQrUYYq7XpxXzvqNfiul1H4aZDwGBGC0lq373KNleaB2LpnC2a/iNfE5zoRYmB4TRDQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+    <div class="admin-sidebar">
+        <div class="admin-profile">
+            <a href=""><img src="./image/engida.jpg" width="70" height="70" alt="image"></a>
+            <h4 class="name"></i>Engida Desalegn</h4>
+        </div>
+        <ul id="sideContent" class="content">
+            <li><a href="/dashbord"></i>Dashbord</a></li>
+            <li class="dropdown-btn"> Students <i class="fa fa-caret-right"></i></li>
+            <ul class="dropdown-container">
+                <li><a href="./All_Student.html">All Student</a></li>
+                <li><a href="/add-student">Add Student</a></li>
+                <li><a href="/studentProfile">Student Profile</a></li>
+            </ul>
+            <li class="dropdown-btn"> Professors <i class="fa fa-caret-right"></i></li>
+            <ul class="dropdown-container">
+                <li><a href="">Add Professors</a></li>
+                <li><a href="">All Professors</a></li>
+                <li><a href="">Professors Profile</a></li>
+            </ul>
+            <li class="dropdown-btn"> Courses <i class="fa fa-caret-right"></i></li>
+            <ul class="dropdown-container">
+                <li><a href="">Add Courses</a></li>
+                <li><a href="">All Courses</a></li>
+                <li><a href="">Courses Info</a></li>
+            </ul>
+
+            <li class="dropdown-btn"> Department <i class="fa fa-caret-right"></i></li>
+            <ul class="dropdown-container">
+                <li><a href="">Add Department</a></li>
+                <li><a href="">All Department</a></li>
+            </ul>
+            <li class="dropdown-btn"> Library <i class="fa fa-caret-right"></i></li>
+            <ul class="dropdown-container">
+                <li><a href="">Add Books</a></li>
+                <li><a href="">All Books</a></li>
+                <li><a href="">Book Info</a></li>
+            </ul>
+    
+            <br>
+            <br>
+            <br>
+            <br>
+        </ul>
+    </div>
+
+    <div class="admin-navigation">
+        <form action="/search" method="POST" class="admin-search-bar">
+            <input type="text" placeholder="Search" name="search">
+            <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+        <div class="admin-left-nav">
+            <button class="notification"><i class="fa fa-bell"></i></button>
+            <button class="profile"><i class="fa fa-user-circle"></i></button>
+              
+        </div>
+        <form action="/logout" method="POST">
+            <button class="btn login">Logout</button>
+        </form>
+    </div>

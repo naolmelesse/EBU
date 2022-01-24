@@ -1,0 +1,24 @@
+.menu-bar i {
+  display: none;
+  font-size: 20px;
+}
+@media screen and (max-width: 768px) {
+  .logo i,
+  .footer-logo a i {
+    font-size: 25px;
+  }
+  .header-toolbar .login {
+    width: 50px;
+    font-size: 12px;
+    padding: 7px;
+  }
+  .nav-items {
+    display: none;
+  }
+  .menu-bar i {
+    display: block;
+  }
+  .responsive {
+    display: block;
+  }
+}
